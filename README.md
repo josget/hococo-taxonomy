@@ -10,7 +10,7 @@ Hococo Taxonomy
 
 ## 1. Clone the repository
 ```bash
-git clone https://github.com/hococo-taxonomy .
+git clone https://github.com/josget/hococo-taxonomy.git
 cd hococo-taxonomy
 ```
 
