@@ -19,7 +19,6 @@ class ChangeParentNodeController extends Controller
     /**
      * @operationId Change parent node
      *
-     * @bodyParam parent_id integer
      */
     public function __invoke(ChangeParentNodeRequest $request, Node $node): JsonResponse
     {
