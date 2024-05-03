@@ -44,12 +44,22 @@ cp .env.example .env
 ./vendor/bin/sail artisan db:seed
 ```
 
-## 7. Visit simple UI
+## 7. Build frontend
+```bash
+# Install Node.js dependencies
+./vendor/bin/sail npm install
+
+# Build the assets using your defined scripts in package.json
+./vendor/bin/sail npm run build
+
+```
+
+## 8. Visit simple UI
 ```bash
 http://localhost:9000
 ```
 
-## 8. Visit api documentation
+## 9. Visit api documentation
 ```bash
 http://localhost:9000/docs/api
 ```
